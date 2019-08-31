@@ -14,7 +14,7 @@ app.use('*', (req: express.Request, res: express.Response, next: express.NextFun
 })
 
 app.get('/', (req: express.Request, res: express.Response, next: express.NextFunction) => {
-  res.json({ TEST: true })
+  res.json({ TEST: false })
 })
 
 app.listen(PORT, () => {
