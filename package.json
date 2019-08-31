@@ -6,7 +6,8 @@
   "author": "tlsehdfl@naver.com",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon --exec ts-node index.ts"
+    "deploy": "gcloud app deploy",
+    "start": "nodemon --exec ts-node server.ts"
   },
   "dependencies": {
     "@types/express": "^4.17.1",
