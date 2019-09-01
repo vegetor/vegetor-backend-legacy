@@ -13,10 +13,6 @@ app.use('*', (req: express.Request, res: express.Response, next: express.NextFun
   next()
 })
 
-app.get('/', (req: express.Request, res: express.Response, next: express.NextFunction) => {})
-
 app.listen(PORT, () => {
   console.log(`Server listening on port ${PORT}...`)
 })
-
-export default app
