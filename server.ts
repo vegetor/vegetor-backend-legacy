@@ -4,6 +4,9 @@ import express from 'express'
 
 const app = express()
 const PORT = process.env.PORT || 8080
+const routes = require('./routes')
+const sequelize = require('./models').sequelize
+sequelize.sync()
 
 app.use('*', (req: express.Request, res: express.Response, next: express.NextFunction) => {
   res.setHeader('Expires', '-1')
@@ -12,6 +15,8 @@ app.use('*', (req: express.Request, res: express.Response, next: express.NextFun
 
   next()
 })
+
+app.use('/', routes)
 
 app.listen(PORT, () => {
   console.log(`Server listening on port ${PORT}...`)
