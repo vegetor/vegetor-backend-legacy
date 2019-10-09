@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3ed0957f-925b-4ac7-b13a-b7bc243934a8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/board/board.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/board/board.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/board/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/event/event.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/event/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/event_file/event_file.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/event_file/event_file.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/event_file/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/file/file.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/file/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/index.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/participant/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/participant/participant.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/participant/participant.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/place/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/place/place.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/place/place.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/star_rate/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/star_rate/star_rate.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/star_rate/star_rate.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/user/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/user/user.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/user_like/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/user_like/user_like.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/user_like/user_like.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/event.ts" beforeDir="false" afterPath="$PROJECT_DIR$/models/event/event.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/file.ts" beforeDir="false" afterPath="$PROJECT_DIR$/models/file/file.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/models/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/user.ts" beforeDir="false" afterPath="$PROJECT_DIR$/models/user/user.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1R8bApPJuPcKxSBtzDvSY9hxBog" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/models/place" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/models/file" />
+      <recent name="$PROJECT_DIR$/models/user_like" />
+      <recent name="$PROJECT_DIR$/models/user" />
+      <recent name="$PROJECT_DIR$/models/star_rate" />
+      <recent name="$PROJECT_DIR$/models/place" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/models/place" />
+      <recent name="$PROJECT_DIR$/models/participant" />
+      <recent name="$PROJECT_DIR$/models/file" />
+      <recent name="$PROJECT_DIR$/models/event_file" />
+      <recent name="$PROJECT_DIR$/models/event" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3ed0957f-925b-4ac7-b13a-b7bc243934a8" name="Default Changelist" comment="" />
+      <created>1569051529229</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569051529229</updated>
+      <workItem from="1569051530313" duration="1045000" />
+      <workItem from="1569064944952" duration="780000" />
+      <workItem from="1569073983716" duration="577000" />
+      <workItem from="1570616442687" duration="640000" />
+      <workItem from="1570617238166" duration="3327000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
