@@ -1,29 +1,32 @@
 import { Model, Column, Table, PrimaryKey, CreatedAt, UpdatedAt } from 'sequelize-typescript'
 
 @Table
-export default class Board extends Model<Board> {
+export default class User extends Model<User> {
 
   @PrimaryKey
   @Column
   id!: number
 
   @Column
-  type?: string
+  user_id?: string
 
   @Column
-  title?: string
+  name?: string
 
   @Column
-  contents?: string
+  password?: string
 
   @Column
-  display?: string
+  password_salt?: string
 
   @Column
-  hit?: string
+  provider_key?: string
 
   @Column
-  priority?: string
+  provider_type?: string
+
+  @Column
+  version?: string
 
   @CreatedAt
   @Column
@@ -32,4 +35,10 @@ export default class Board extends Model<Board> {
   @UpdatedAt
   @Column
   updated_at?: Date
+
+  @Column
+  last_login_at!: Date
+
+  @Column
+  withdraw!: boolean
 }

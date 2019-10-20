@@ -1,29 +1,17 @@
 import { Model, Column, Table, PrimaryKey, CreatedAt, UpdatedAt } from 'sequelize-typescript'
 
 @Table
-export default class Board extends Model<Board> {
+export default class Participant extends Model<Participant> {
 
   @PrimaryKey
   @Column
   id!: number
 
   @Column
-  type?: string
+  event_id?: number
 
   @Column
-  title?: string
-
-  @Column
-  contents?: string
-
-  @Column
-  display?: string
-
-  @Column
-  hit?: string
-
-  @Column
-  priority?: string
+  user_id?: number
 
   @CreatedAt
   @Column

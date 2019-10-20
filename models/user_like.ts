@@ -1,29 +1,20 @@
 import { Model, Column, Table, PrimaryKey, CreatedAt, UpdatedAt } from 'sequelize-typescript'
 
 @Table
-export default class Board extends Model<Board> {
+export default class UserLike extends Model<UserLike> {
 
   @PrimaryKey
   @Column
   id!: number
 
   @Column
-  type?: string
+  from_id?: number
 
   @Column
-  title?: string
+  user_id?: number
 
   @Column
-  contents?: string
-
-  @Column
-  display?: string
-
-  @Column
-  hit?: string
-
-  @Column
-  priority?: string
+  from?: string
 
   @CreatedAt
   @Column
