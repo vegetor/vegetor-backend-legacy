@@ -1,9 +1,8 @@
 import * as express from 'express'
 import * as bodyParser from 'body-parser'
-import * as errorHandler from 'strong-error-handler'
 import { boards } from './routes/board'
 
-export const app = express()
+const app: express.Application = express()
 
 app.use(bodyParser.urlencoded({ extended: true }))
 
@@ -20,7 +19,4 @@ app.use((req: express.Request, res: express.Response, next: express.NextFunction
 
 app.use('/board', boards)
 
-app.use(errorHandler({
-  debug: process.env.ENV !== 'prod',
-  log: true
-}))
+export default app

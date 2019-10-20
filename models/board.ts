@@ -1,10 +1,11 @@
 import { Model, Column, Table, PrimaryKey, CreatedAt, UpdatedAt } from 'sequelize-typescript'
 
 @Table
-export class Board extends Model<Board> {
+export default class Board extends Model<Board> {
+
   @PrimaryKey
   @Column
-  id!: bigint
+  id!: number
 
   @Column
   type!: string

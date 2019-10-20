@@ -2,45 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ed0957f-925b-4ac7-b13a-b7bc243934a8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/board.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/event.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/event_file.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/file.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/board.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sequelize.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/board/board.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/models/participant.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/board/board.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/board/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/event/event.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/models/place.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/event/event.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/event/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/event_file/event_file.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/models/star_rate.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/event_file/event_file.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/event_file/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/file/file.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/models/user.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/file/file.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/file/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/index.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/models/user_like.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/participant/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/participant/participant.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/participant/participant.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/place/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/place/place.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/place/place.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/star_rate/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/star_rate/star_rate.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/star_rate/star_rate.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/user/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/user/user.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/user/user.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/user_like/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/user_like/user_like.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/user_like/user_like.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/board.ts" beforeDir="false" afterPath="$PROJECT_DIR$/models/board.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/event.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/event_file.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/file.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/participant.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/place.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/star_rate.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/user.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/user_like.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/board.ts" beforeDir="false" afterPath="$PROJECT_DIR$/routes/board.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sequelize.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sequelize.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -113,7 +91,8 @@
       <workItem from="1570617238166" duration="5032000" />
       <workItem from="1570662507342" duration="17000" />
       <workItem from="1570662749530" duration="25000" />
-      <workItem from="1571545547953" duration="577000" />
+      <workItem from="1571545547953" duration="1519000" />
+      <workItem from="1571548702402" duration="1069000" />
     </task>
     <servers />
   </component>
