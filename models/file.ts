@@ -1,28 +1,29 @@
 import { Model, Column, Table, PrimaryKey, CreatedAt, UpdatedAt } from 'sequelize-typescript'
 
 @Table
-export class File extends Model<File> {
+export default class File extends Model<File> {
+
   @PrimaryKey
   @Column
   id!: number
 
   @Column
-  fileName?: number
+  file_name?: string
 
   @Column
-  filePath!: number
+  file_path?: string
 
   @Column
-  url!: string
+  url?: string
 
   @Column
-  hash!: string
+  hash?: string
 
   @CreatedAt
   @Column
-  createdAt?: Date
+  created_at?: Date
 
   @UpdatedAt
   @Column
-  updatedAt?: Date
+  updated_at?: Date
 }

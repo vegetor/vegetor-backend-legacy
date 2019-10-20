@@ -1,5 +1,5 @@
 import { Router } from 'express'
-import { Board } from '../models/board'
+import Board from '../models/board'
 
 export const boards = Router()
 

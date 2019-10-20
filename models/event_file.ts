@@ -1,12 +1,14 @@
-import { Model, Column, Table, PrimaryKey, CreatedAt } from 'sequelize-typescript'
+import { Model, Column, Table, CreatedAt } from 'sequelize-typescript'
 
 @Table
-export class EventFile extends Model<EventFile> {
-  @PrimaryKey
+export default class EventFile extends Model<EventFile> {
   @Column
-  id!: number
+  event_id?: number
+
+  @Column
+  file_id?: number
 
   @CreatedAt
   @Column
-  createdAt?: Date
+  created_at?: Date
 }

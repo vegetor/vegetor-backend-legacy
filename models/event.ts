@@ -1,49 +1,56 @@
 import { Model, Column, Table, PrimaryKey, CreatedAt, UpdatedAt } from 'sequelize-typescript'
 
 @Table
-export class Event extends Model<Event> {
+export default class Event extends Model<Event> {
+
   @PrimaryKey
   @Column
   id!: number
 
   @Column
+  user_id?: number
+
+  @Column
+  file_id?: number
+
+  @Column
   title!: string
 
   @Column
-  contents!: Text
+  contents!: string
 
   @Column
-  place!: string
+  location!: string
 
   @Column
-  zipCode?: string
+  zipcode!: string
 
   @Column
-  address?: string
+  address!: string
 
   @Column
   pool?: number
 
   @Column
-  contact?: string
+  contract?: string
 
   @Column
-  startDate?: Date
+  start_date?: Date
 
   @Column
-  endDate?: Date
+  end_date?: Date
 
   @Column
-  displayYn?: boolean
+  display_yn?: boolean
 
   @Column
   hit?: number
 
   @CreatedAt
   @Column
-  createdAt?: Date
+  created_at?: Date
 
   @UpdatedAt
   @Column
-  updatedAt?: Date
+  updated_at?: Date
 }

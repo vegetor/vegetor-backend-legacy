@@ -1,26 +1,18 @@
 import { Model, Column, Table, PrimaryKey, CreatedAt, UpdatedAt } from 'sequelize-typescript'
 
 @Table
-export default class UserLike extends Model<UserLike> {
+export default class StarRate extends Model<StarRate> {
 
   @PrimaryKey
   @Column
   id!: number
 
   @Column
-  from_id?: number
-
-  @Column
   user_id?: number
 
   @Column
-  from?: string
+  place_id?: number
 
-  @CreatedAt
   @Column
-  created_at?: Date
-
-  @UpdatedAt
-  @Column
-  updated_at?: Date
+  star_rate?: number
 }

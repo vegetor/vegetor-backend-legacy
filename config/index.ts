@@ -1,7 +1,7 @@
 module.exports = {
-  database: process.env.DATABASE,
-  userName: process.env.USER_NAME,
-  password: process.env.PASSWORD,
-  host: process.env.HOST_NAME,
-  dialect: process.env.DIALECT
+  database: 'vegetor',
+  userName: 'root',
+  password: '166366',
+  host: '34.84.88.221',
+  dialect: 'mysql'
 }

@@ -1,22 +1,23 @@
 import { Model, Column, Table, PrimaryKey, CreatedAt, UpdatedAt } from 'sequelize-typescript'
 
 @Table
-export class Board extends Model<Board> {
+export default class Board extends Model<Board> {
+
   @PrimaryKey
   @Column
-  id!: bigint
+  id!: number
 
   @Column
-  type!: string
+  type?: string
 
   @Column
-  title!: string
+  title?: string
 
   @Column
-  contents!: string
+  contents?: string
 
   @Column
-  display!: string
+  display?: string
 
   @Column
   hit?: string
@@ -26,9 +27,9 @@ export class Board extends Model<Board> {
 
   @CreatedAt
   @Column
-  createdAt?: Date
+  created_at?: Date
 
   @UpdatedAt
   @Column
-  updatedAt?: Date
+  updated_at?: Date
 }
