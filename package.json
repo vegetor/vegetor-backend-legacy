@@ -10,7 +10,9 @@
     "start": "nodemon --exec ts-node server.ts"
   },
   "dependencies": {
+    "bcrypt": "^3.0.8",
     "dotenv": "^8.1.0",
+    "jsonwebtoken": "^8.5.1",
     "mysql2": "^1.7.0",
     "passport": "^0.4.0",
     "passport-local": "^1.0.0",
